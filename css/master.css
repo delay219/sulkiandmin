@@ -1,0 +1,92 @@
+*{margin: 0; padding: 0; text-decoration: none; list-style: none;}
+header{background-color: #FFFFFF; height: 70px; display: flex;
+  justify-content: center; align-items: center;}
+
+.nav {display:flex; padding: 30px 0; }
+.nav li {flex: 1;}
+.nav li ~ li { border-left: 1px solid #000;}
+.nav li a {display: block; line-height: 30px; text-align: center; color: #424242;
+            font-family: 'Noto Sans KR',sans-serif; font-weight: 500;letter-spacing: -1.5px;font-size: 1.3rem;}
+.nav li a span {position: relative;}
+.nav li a span:after {content: ""; position: absolute; left: 0;
+bottom: -10px; width: 100%; height: 3px; background: #231D1D; transition:transform .4s;
+transform: scaleX(0);}
+.nav li a:hover span:after {transform: scaleX(1);}
+
+.bg1{height: 800px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_03_bg.png');}
+
+.bg2{height: 750px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_05_bg.png');}
+
+.bg3{height: 750px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_08_bg.png');}
+
+.bg4{height: 750px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_11_bg.png');}
+
+.bg5{height: 750px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_14_bg.png');}
+
+.bg6{height: 750px; background-size: cover; background-position: center;
+display: flex;justify-content: center; align-items: center;
+background-image: url('../img/00_17_bg.png');}
+
+.tit1{display: inline-block;  height: 301px;}
+.tit2{display: block; margin: 0px auto; }
+.tit2_b{padding-top: 28px;
+display: block; margin: 0px auto;text-align: center;}
+.bg .tit2_b img{transform: scale(1);transition: 0.5s;}
+.bg .tit2_b img:hover{transform: scale(1.1);transition: 0.5s;}
+
+footer{height: 80px;width: 100%;background-color: #FFFFF; display: flex;
+justify-content: center;align-items: center;}
+.footerwrap {width: 1024px; height: 80px;
+display: flex; justify-content:space-between;}
+.f_left {display: inline-block; width: 200px;
+  height: 80px; display:flex;
+justify-content: center; align-items:center;}
+.f_right {display: inline-block; width: 400px;
+height: 80px; display: flex; justify-content: center;align-items: center;
+color: inherit; font-family: 'Noto Sans KR', sans-serif; font-letter-spacing: -1px;}
+
+/*---sub01 반영되는 CSS---*/
+.sub01_bg {background-image: url('../img/01_02_bg.png'); height:600px;
+background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center;}
+.sub01_cont {background-image: url('../img/01_04_cont_bg.png'); height:1688px;
+background-repeat: no-repeat;background-position: bottom;background-size: cover;
+display: flex;justify-content: center; align-items: center;}
+
+/*---sub02 반영되는 CSS---*/
+.sub02_bg {background-image: url('../img/02_00_tit.png'); height:600px;
+background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center;}
+
+/*---sub03 반영되는 CSS---*/
+
+.sub03_q {background-image: url('../img/03_00_tit.png'); height:600px; background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center;}
+.sub03_cont { background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center; }
+.sub03_cont1 { background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center; margin-bottom: 170px;}
+
+/*---sub04 반영되는 CSS---*/
+.sub04_bg {background-image: url('../img/04_00_tit.png'); height:600px;
+background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center;}
+.sub04_cont { background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center; }
+
+/*---sub05 반영되는 CSS---*/
+.sub05_bg {background-image: url('../img/05_00_tit.png'); height:600px;
+background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center;}
+.sub05_cont { background-size: cover;background-position: center; display: flex; justify-content:center;
+align-items: center; }
